@@ -1,0 +1,66 @@
+.movie_tvshow_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.movie_tvshow_container div svg {
+    color: #ffc800;
+}
+
+.movie_tvshow_container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin-bottom: 2.5rem;
+    padding: 1rem;
+}
+
+.movie_tvshow_container img {
+    max-width: 100%;
+}
+
+.movie_tvshow_container h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16.5px;
+}
+
+.movie_tvshow_container img,
+.movie_tvshow_container h3,
+.movie_tvshow_container p {
+    margin-bottom: 1rem;
+}
+
+.paragrafo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.linkMovieCard {
+    display: flex;
+    justify-content: center;
+    background-color: #ce2929;
+    text-decoration: none;
+    color: white;
+    border: 2px solid #ce2929;
+    border-radius: 4px;
+    font-weight: bold;
+    padding: 0.5rem 0.5rem;
+    transition: 0.4s;
+}
+
+.linkMovieCard:hover {
+    background-color: red;
+}
+
+.carregando{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}

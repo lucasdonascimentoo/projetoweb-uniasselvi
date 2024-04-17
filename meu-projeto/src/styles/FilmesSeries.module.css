@@ -1,0 +1,57 @@
+.filmes_series{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    color: white;
+    width: 300px;
+    height: 300px;
+    margin: 100px 0px 100px 0px;
+
+}
+
+img{
+    width: 100%;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* @media(max-width:640px){
+    .filmes_series{
+        width:200px;
+        height: 130px;
+    }
+    .titulo{
+        font-size:100%;
+        margin-bottom:
+    }
+}
+
+@media(max-width:420px){
+    .filmes_series{
+        flex-wrap: wrap;
+        width: 150px;
+        height: 40px;
+    }
+
+    .titulo{
+        font-size: 80%;
+    }
+}
+
+@media(min-width:1700px){
+    .filmes_series{
+        width: 500px;
+        height: 600px;
+    }
+    .titulo{
+        font-size:300%;
+    }
+} */

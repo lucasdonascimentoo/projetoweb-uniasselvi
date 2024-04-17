@@ -1,0 +1,56 @@
+.movie_card_container{
+        display: flex;
+        justify-content: center;
+}
+
+.carregando{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.movie_card{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+
+.movie_card img,
+.movie_card h3,
+.movie_card p{
+    margin-bottom: 0.5rem;
+}
+
+.info{
+    margin-bottom: 1.3rem;
+}
+
+.paragrafo{
+    display: flex;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.link{
+    display:flex;
+    justify-content: center;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    font-size: 2em;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 0em 1em 0em 1em;
+}
+

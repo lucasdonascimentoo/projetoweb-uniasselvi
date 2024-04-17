@@ -1,0 +1,24 @@
+.footer{
+    background-color: #222;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+}
+
+.copy_right span{
+    color: #ce2929;
+    font-weight: bold;
+}
+
+.link{
+    color: gray;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
